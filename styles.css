@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* litur siðu */  
+.litursiðu{
+    background-color: #2f0505;
+}
+
+/* Main heddingið fyrir allar siður */
+.mainheding {
+    text-align: center;
+    color: white;
+    border-bottom: solid 8px #ffe7ae;
+    padding: 1rem;
+}
+
+/* Fyrir linkana sem við þurfum að nota efst á siðunni */
+nav{
+    padding: 1rem;
+    background-color: #fff9ee;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    padding-right: 1rem;
+    display: inline;
+}
+
+nav ul li :last-child{
+    padding-right: 0;
+}
+
+/* Liturinn á main hltunum á hverri siðu */
+main{
+    background-color: white;
+}
+
+/* Fótturinn */
+.foot{
+    color: white;
+    border-top: solid 8px #ffe7ae;
+    text-align: center;
+    padding: 1rem;
+}
+
+.box{
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;  
+}
+
+.padding{
+    padding-right: 2rem;
+}
+
+.listi{
+    list-style-type: none;
+}
+
+/* til að miðja texta ef svo þarf */
+.center{
+    text-align: center;
+}
+
+/* Fyrir um okkur síðuna til að þjappa saman textanum í sögunni */
+.paddinghv{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+/* Ef þegar mér vanntar padding til hægri */
+.paddingright{
+    padding-right: 2rem;
+}
+
+/* border fyrir panntanar box */
+.border{
+    border: solid 1px black
+}
+
+/* Taflan fyrir matseðilinn */
+table, tr, th, td {
+    text-align: center;
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+.centertafla{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablelitur1{
+    background-color: #ffe7ae;
+}
+
+/* Texta bil á forsíðunni */
+.textbil{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* padding fyrir töflu a matseðli */
+.paddingallaround{
+    padding: 1rem;
+}
+
+.textleft{
+    text-align: left;
+}
+
+.paddingniður{
+    padding-bottom: 1rem;
+}
